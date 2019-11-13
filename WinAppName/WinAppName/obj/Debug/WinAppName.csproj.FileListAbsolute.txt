@@ -1,0 +1,59 @@
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\AppName.exe.config
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\AppName.exe
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\AppName.pdb
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\AppNameBusinessLayer.dll
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\AppNameDataAccessLayer.dll
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\AppNameWinFormsCommonLibrary.dll
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\AppNameWinFormsFormLibrary.dll
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\AppNameWinFormsSearchControlLibrary.dll
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\DevExpress.BonusSkins.v9.2.dll
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\DevExpress.Data.v9.2.dll
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\DevExpress.Utils.v9.2.dll
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\DevExpress.XtraBars.v9.2.dll
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\DevExpress.XtraEditors.v9.2.dll
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\DevExpress.XtraGrid.v9.2.dll
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\DevExpress.XtraLayout.v9.2.dll
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\DevExpress.XtraNavBar.v9.2.dll
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\AppNameBusinessLayer.pdb
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\AppNameDataAccessLayer.pdb
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\AppNameWinFormsFormLibrary.pdb
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\AppNameWinFormsSearchControlLibrary.pdb
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\bin\Debug\AppNameWinFormsCommonLibrary.pdb
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\obj\Debug\WinAppName.csprojResolveAssemblyReference.cache
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\obj\Debug\CustName.AppName.WinPL.BaseAboutBoxForm.resources
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\obj\Debug\CustName.AppName.WinPL.BaseMainForm.resources
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\obj\Debug\CustName.AppName.WinPL.Properties.Resources.resources
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\obj\Debug\WinAppName.csproj.GenerateResource.Cache
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\obj\Debug\WinAppName.csproj.CoreCompileInputs.cache
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\obj\Debug\AppName.exe
+C:\N\Mount Chocorua Corporation\7 Template1\App\WinAppName\WinAppName\obj\Debug\AppName.pdb
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\AppName.exe.config
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\AppName.exe
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\AppName.pdb
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\AppNameBusinessLayer.dll
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\AppNameDataAccessLayer.dll
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\AppNameWinFormsCommonLibrary.dll
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\AppNameWinFormsFormLibrary.dll
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\AppNameWinFormsSearchControlLibrary.dll
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\DevExpress.BonusSkins.v9.2.dll
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\DevExpress.Data.v9.2.dll
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\DevExpress.Utils.v9.2.dll
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\DevExpress.XtraBars.v9.2.dll
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\DevExpress.XtraEditors.v9.2.dll
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\DevExpress.XtraGrid.v9.2.dll
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\DevExpress.XtraLayout.v9.2.dll
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\DevExpress.XtraNavBar.v9.2.dll
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\AppNameBusinessLayer.pdb
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\AppNameDataAccessLayer.pdb
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\AppNameWinFormsFormLibrary.pdb
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\AppNameWinFormsSearchControlLibrary.pdb
+C:\EricProject\App\WinAppName\WinAppName\bin\Debug\AppNameWinFormsCommonLibrary.pdb
+C:\EricProject\App\WinAppName\WinAppName\obj\Debug\WinAppName.csprojAssemblyReference.cache
+C:\EricProject\App\WinAppName\WinAppName\obj\Debug\CustName.AppName.WinPL.BaseAboutBoxForm.resources
+C:\EricProject\App\WinAppName\WinAppName\obj\Debug\CustName.AppName.WinPL.BaseMainForm.resources
+C:\EricProject\App\WinAppName\WinAppName\obj\Debug\CustName.AppName.WinPL.Properties.Resources.resources
+C:\EricProject\App\WinAppName\WinAppName\obj\Debug\WinAppName.csproj.GenerateResource.cache
+C:\EricProject\App\WinAppName\WinAppName\obj\Debug\WinAppName.csproj.CoreCompileInputs.cache
+C:\EricProject\App\WinAppName\WinAppName\obj\Debug\WinAppName.csproj.CopyComplete
+C:\EricProject\App\WinAppName\WinAppName\obj\Debug\AppName.exe
+C:\EricProject\App\WinAppName\WinAppName\obj\Debug\AppName.pdb

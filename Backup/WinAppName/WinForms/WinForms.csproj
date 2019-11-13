@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{50EEDEC1-7FB7-4C72-990B-1EE94A0446AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustName.AppName.WinPL</RootNamespace>
+    <AssemblyName>AppNameWinFormsCommonLibrary</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\EntityMainForm\EntityMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\EntityMainForm\BaseEntityMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="Custom\Template\ToolBarButtonClickEventArgs.cs">
+    </None>
+    <Compile Include="Base\EntityFindEdit\EntityFindEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <None Include="Custom\Template\EntityMainForm\EntityMainFormEntityPanelControlTag.cs">
+    </None>
+    <None Include="Custom\Template\EntitySearchForm\EntitySearchForm.Designer.cs">
+      <DependentUpon>EntitySearchForm.cs</DependentUpon>
+    </None>
+    <Compile Include="Base\IForm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\EntityPanelControl\EntityPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\IMainForm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="Custom\Template\PanelControl\PanelControl.Designer.cs">
+      <DependentUpon>PanelControl.cs</DependentUpon>
+    </None>
+    <Compile Include="Custom\Template\EnumerationClasses.cs">
+    </Compile>
+    <Compile Include="Base\EntityFindEdit\RepositoryItemEntityFindEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Base\EntitySearchControl\EntitySearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\EntitySearchPopupContainerContentControl\BaseEntitySearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>BaseEntitySearchPopupContainerContentControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\EntityMainForm\EntityMainFormTabPageTag.cs">
+    </Compile>
+    <Compile Include="Base\XtraTabbedMdiManager.cs">
+    </Compile>
+    <None Include="Custom\Template\EntitySearchControl\EntitySearchControl.Designer.cs">
+      <DependentUpon>EntitySearchControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\EntityMainForm\EntityMainForm.cs">
+    </None>
+    <Compile Include="Base\SplitContainerControl\SplitContainerControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <None Include="Custom\Template\EntityMainForm\EntityPanelControlBinding.cs">
+    </None>
+    <Compile Include="Base\ToolBarButtonClickEventArgs.cs">
+    </Compile>
+    <Compile Include="Base\EntityPanelControl\BaseEntityPanelControl.Designer.cs">
+      <DependentUpon>BaseEntityPanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\EntityMainForm\BaseEntityMainFormTabPageTag.cs">
+    </Compile>
+    <None Include="Custom\Template\EntityMainForm\EntityMainFormTabPageTag.cs">
+    </None>
+    <Compile Include="Base\EntitySearchPopupContainerContentControl\EntitySearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\EntitySearchForm\BaseEntitySearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\AppExceptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\ClassFactory.cs">
+    </Compile>
+    <Compile Include="Base\EntityMainForm\EntityPanelControlBinding.cs">
+    </Compile>
+    <Compile Include="Base\EntityPanelControl\BaseEntityPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <None Include="Custom\Template\SplitContainerControl\SplitContainerControl.cs">
+    </None>
+    <Compile Include="Base\EntityLookupEdit\RepositoryItemEntityLookUpEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <None Include="Custom\Template\EntitySearchPopupContainerContentControl\EntitySearchPopupContainerContentControl.cs">
+    </None>
+    <Compile Include="Base\SplitContainerControl\BaseSplitContainerControl.Designer.cs">
+      <DependentUpon>BaseSplitContainerControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="Base\PanelControl\PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\EntityMainForm\BaseEntityPanelControlBinding.cs">
+    </Compile>
+    <Compile Include="Base\EntityMainForm\BaseEntityMainFormEntityPanelControlTag.cs">
+    </Compile>
+    <None Include="Custom\Template\ClassFactory.cs">
+    </None>
+    <Compile Include="Base\EntityMainForm\EntityMainFormEntityPanelControlTag.cs">
+    </Compile>
+    <Compile Include="Base\EntitySearchPopupContainerContentControl\BaseEntitySearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\EntityMainForm\BaseEntityMainForm.Designer.cs">
+      <DependentUpon>BaseEntityMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\EntitySearchControl\BaseEntitySearchControl.Designer.cs">
+      <DependentUpon>BaseEntitySearchControl.cs</DependentUpon>
+    </Compile>
+    <None Include="Custom\Template\PanelControl\PanelControl.cs">
+    </None>
+    <None Include="Custom\Template\EntityPanelControl\EntityPanelControl.cs">
+    </None>
+    <Compile Include="Base\SplitContainerControl\BaseSplitContainerControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Base\PanelControl\BasePanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\FileAttachmentEdit\FileAttachmentEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Base\BaseToolBarButtonClickEventArgs.cs">
+    </Compile>
+    <None Include="Custom\Template\EntityPanelControl\EntityPanelControl.Designer.cs">
+      <DependentUpon>EntityPanelControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\EntitySearchControl\EntitySearchControl.cs">
+    </None>
+    <Compile Include="Base\EntityObjectSelectionEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\OpenEntityObjectEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\FileAttachmentEdit\RepositoryItemFileAttachmentEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <None Include="Custom\Template\EntityMainForm\EntityMainForm.Designer.cs">
+      <DependentUpon>EntityMainForm.cs</DependentUpon>
+    </None>
+    <Compile Include="Base\ViewMode.cs">
+    </Compile>
+    <None Include="Custom\Template\EntitySearchForm\EntitySearchForm.cs">
+    </None>
+    <Compile Include="Base\EntityLookupEdit\EntityLookUpEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Base\AppExceptionForm.Designer.cs">
+      <DependentUpon>AppExceptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\Global.cs">
+    </Compile>
+    <Compile Include="Base\EntitySearchForm\BaseEntitySearchForm.Designer.cs">
+      <DependentUpon>BaseEntitySearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\ToolBarButtonClickEventHandler.cs">
+    </Compile>
+    <Compile Include="Base\EntitySearchForm\EntitySearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\PanelControl\BasePanelControl.Designer.cs">
+      <DependentUpon>BasePanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\EntitySearchControl\BaseEntitySearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <None Include="Custom\Template\EntitySearchPopupContainerContentControl\EntitySearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>EntitySearchPopupContainerContentControl.cs</DependentUpon>
+    </None>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Base\PanelControl\BasePanelControl.resx">
+      <DependentUpon>BasePanelControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\FileAttachmentEdit\FileAttachmentEdit.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\FileAttachmentEdit\RepositoryItemFileAttachmentEdit_SaveAs.png">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\EntityPanelControl\BaseEntityPanelControl.resx">
+      <DependentUpon>BaseEntityPanelControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\AppExceptionForm.resx">
+      <DependentUpon>AppExceptionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\EntityMainForm\BaseEntityMainForm.resx">
+      <DependentUpon>BaseEntityMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\EntitySearchForm\BaseEntitySearchForm.resx">
+      <DependentUpon>BaseEntitySearchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\EntitySearchPopupContainerContentControl\BaseEntitySearchPopupContainerContentControl.resx">
+      <DependentUpon>BaseEntitySearchPopupContainerContentControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\EntitySearchControl\BaseEntitySearchControl.resx">
+      <DependentUpon>BaseEntitySearchControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AppNameBusinessLayer\AppNameBusinessLayer.csproj">
+      <Project>{EE1D688B-A110-4121-A6DC-11189CEDD49B}</Project>
+      <Name>AppNameBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AppNameDataAccessLayer\AppNameDataAccessLayer.csproj">
+      <Project>{B979116E-8E1A-4C2A-A692-E0A0D5570404}</Project>
+      <Name>AppNameDataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

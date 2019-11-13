@@ -1,0 +1,11 @@
+Independent Entity 1 Main Form:
+IndependentEntity1MainForm_ParentIndependentEntity1PanelControl.xml
+IndependentEntity1MainForm_ChildOwnedDependentEntity1PanelControl.xml
+IndependentEntity1MainForm_ChildOwnedAttachment1PanelControl.xml
+IndependentEntity1MainForm_ChildOwnedDependentEntity2PanelControl.xml
+IndependentEntity1MainForm_ChildOwnedRelationshipEntity1PanelControl.xml
+----------------------------------------------------------------------
+Independent Entity 2 Main Form:
+IndependentEntity2MainForm_ParentIndependentEntity2PanelControl.xml
+IndependentEntity2MainForm_ChildOwnedRelationshipEntity1PanelControl.xml
+----------------------------------------------------------------------

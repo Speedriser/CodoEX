@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B6DAEC1-360F-47B1-BA21-0D192EB2C8E2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustName.AppName.WinPL</RootNamespace>
+    <AssemblyName>AppNameWinFormsSearchControlLibrary</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v9.2">
+      <HintPath>..\..\DevExpress Required DLLs\DevExpress.BonusSkins.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\..\DevExpress Required DLLs\DevExpress.Data.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\..\DevExpress Required DLLs\DevExpress.Utils.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\..\DevExpress Required DLLs\DevExpress.XtraBars.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\..\DevExpress Required DLLs\DevExpress.XtraEditors.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\..\DevExpress Required DLLs\DevExpress.XtraGrid.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\..\DevExpress Required DLLs\DevExpress.XtraLayout.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v9.2">
+      <HintPath>..\..\DevExpress Required DLLs\DevExpress.XtraNavBar.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Custom\Template\SearchControls\EntitySearchControl\IndependentEntity2SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchControl\RelationshipEntity1SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchControl\DependentEntity2SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchControl\IndependentEntity1SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <Compile Include="Base\SearchControls\EntitySearchControl\Attachment1SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\IndependentEntity1SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\IndependentEntity2SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\DependentEntity1SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\DependentEntity2SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\BaseDependentEntity1SearchControl.Designer.cs">
+      <DependentUpon>BaseDependentEntity1SearchControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\BaseDependentEntity2SearchControl.Designer.cs">
+      <DependentUpon>BaseDependentEntity2SearchControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseRelationshipEntity1SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\BaseAttachment1SearchControl.Designer.cs">
+      <DependentUpon>BaseAttachment1SearchControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\BaseIndependentEntity1SearchControl.Designer.cs">
+      <DependentUpon>BaseIndependentEntity1SearchControl.cs</DependentUpon>
+    </Compile>
+    <None Include="Custom\Template\SearchControls\EntitySearchControl\Attachment1SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchControl\DependentEntity1SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <Compile Include="Base\SearchControls\EntitySearchControl\BaseIndependentEntity2SearchControl.Designer.cs">
+      <DependentUpon>BaseIndependentEntity2SearchControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\BaseRelationshipEntity1SearchControl.Designer.cs">
+      <DependentUpon>BaseRelationshipEntity1SearchControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\RelationshipEntity1SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <None Include="Custom\Template\SearchControls\EntitySearchControl\Attachment1SearchControl.Designer.cs">
+      <DependentUpon>Attachment1SearchControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchControl\DependentEntity1SearchControl.Designer.cs">
+      <DependentUpon>DependentEntity1SearchControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchControl\IndependentEntity2SearchControl.Designer.cs">
+      <DependentUpon>IndependentEntity2SearchControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchControl\RelationshipEntity1SearchControl.Designer.cs">
+      <DependentUpon>RelationshipEntity1SearchControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchControl\DependentEntity2SearchControl.Designer.cs">
+      <DependentUpon>DependentEntity2SearchControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchControl\IndependentEntity1SearchControl.Designer.cs">
+      <DependentUpon>IndependentEntity1SearchControl.cs</DependentUpon>
+    </None>
+    <Compile Include="Base\SearchControls\EntitySearchControl\BaseDependentEntity2SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\BaseIndependentEntity1SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\BaseAttachment1SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\BaseDependentEntity1SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\BaseIndependentEntity2SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchControl\BaseRelationshipEntity1SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseIndependentEntity2SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\DependentEntity2SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\IndependentEntity1SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\Attachment1SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\DependentEntity1SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\IndependentEntity2SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseDependentEntity1SearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>BaseDependentEntity1SearchPopupContainerContentControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseDependentEntity2SearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>BaseDependentEntity2SearchPopupContainerContentControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\RelationshipEntity1SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseAttachment1SearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>BaseAttachment1SearchPopupContainerContentControl.cs</DependentUpon>
+    </Compile>
+    <None Include="Custom\Template\SearchControls\EntitySearchPopupContainerContentControl\Attachment1SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchPopupContainerContentControl\DependentEntity1SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchPopupContainerContentControl\IndependentEntity2SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchPopupContainerContentControl\RelationshipEntity1SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchPopupContainerContentControl\DependentEntity2SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchPopupContainerContentControl\IndependentEntity1SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseIndependentEntity1SearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>BaseIndependentEntity1SearchPopupContainerContentControl.cs</DependentUpon>
+    </Compile>
+    <None Include="Custom\Template\SearchControls\EntitySearchPopupContainerContentControl\IndependentEntity1SearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>IndependentEntity1SearchPopupContainerContentControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchPopupContainerContentControl\IndependentEntity2SearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>IndependentEntity2SearchPopupContainerContentControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchPopupContainerContentControl\DependentEntity1SearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>DependentEntity1SearchPopupContainerContentControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchPopupContainerContentControl\DependentEntity2SearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>DependentEntity2SearchPopupContainerContentControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\SearchControls\EntitySearchPopupContainerContentControl\RelationshipEntity1SearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>RelationshipEntity1SearchPopupContainerContentControl.cs</DependentUpon>
+    </None>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseDependentEntity2SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseIndependentEntity1SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseAttachment1SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseDependentEntity1SearchPopupContainerContentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseIndependentEntity2SearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>BaseIndependentEntity2SearchPopupContainerContentControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseRelationshipEntity1SearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>BaseRelationshipEntity1SearchPopupContainerContentControl.cs</DependentUpon>
+    </Compile>
+    <None Include="Custom\Template\SearchControls\EntitySearchPopupContainerContentControl\Attachment1SearchPopupContainerContentControl.Designer.cs">
+      <DependentUpon>Attachment1SearchPopupContainerContentControl.cs</DependentUpon>
+    </None>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Base\SearchControls\EntitySearchControl\BaseRelationshipEntity1SearchControl.resx">
+      <DependentUpon>BaseRelationshipEntity1SearchControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchControls\EntitySearchControl\BaseIndependentEntity1SearchControl.resx">
+      <DependentUpon>BaseIndependentEntity1SearchControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchControls\EntitySearchControl\BaseIndependentEntity2SearchControl.resx">
+      <DependentUpon>BaseIndependentEntity2SearchControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchControls\EntitySearchControl\BaseDependentEntity1SearchControl.resx">
+      <DependentUpon>BaseDependentEntity1SearchControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchControls\EntitySearchControl\BaseDependentEntity2SearchControl.resx">
+      <DependentUpon>BaseDependentEntity2SearchControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchControls\EntitySearchControl\BaseAttachment1SearchControl.resx">
+      <DependentUpon>BaseAttachment1SearchControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseAttachment1SearchPopupContainerContentControl.resx">
+      <DependentUpon>BaseAttachment1SearchPopupContainerContentControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseDependentEntity1SearchPopupContainerContentControl.resx">
+      <DependentUpon>BaseDependentEntity1SearchPopupContainerContentControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseDependentEntity2SearchPopupContainerContentControl.resx">
+      <DependentUpon>BaseDependentEntity2SearchPopupContainerContentControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseRelationshipEntity1SearchPopupContainerContentControl.resx">
+      <DependentUpon>BaseRelationshipEntity1SearchPopupContainerContentControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseIndependentEntity1SearchPopupContainerContentControl.resx">
+      <DependentUpon>BaseIndependentEntity1SearchPopupContainerContentControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchControls\EntitySearchPopupContainerContentControl\BaseIndependentEntity2SearchPopupContainerContentControl.resx">
+      <DependentUpon>BaseIndependentEntity2SearchPopupContainerContentControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AppNameBusinessLayer\AppNameBusinessLayer.csproj">
+      <Project>{EE1D688B-A110-4121-A6DC-11189CEDD49B}</Project>
+      <Name>AppNameBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AppNameDataAccessLayer\AppNameDataAccessLayer.csproj">
+      <Project>{B979116E-8E1A-4C2A-A692-E0A0D5570404}</Project>
+      <Name>AppNameDataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinForms\WinForms.csproj">
+      <Project>{50EEDEC1-7FB7-4C72-990B-1EE94A0446AC}</Project>
+      <Name>WinForms</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

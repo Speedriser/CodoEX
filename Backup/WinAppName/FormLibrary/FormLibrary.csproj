@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{254773AE-FE37-4429-80BE-4D6A90B9C9DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustName.AppName.WinPL</RootNamespace>
+    <AssemblyName>AppNameWinFormsFormLibrary</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseChildOwnedRelationshipEntity1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity2\BaseParentIndependentEntity2PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseChildOwnedDependentEntity2PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseParentIndependentEntity1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity1\ChildOwnedDependentEntity1PanelControl.Designer.cs">
+      <DependentUpon>ChildOwnedDependentEntity1PanelControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity1\ChildOwnedDependentEntity2PanelControl.Designer.cs">
+      <DependentUpon>ChildOwnedDependentEntity2PanelControl.cs</DependentUpon>
+    </None>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity2\BaseChildOwnedRelationshipEntity1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity1\ChildOwnedAttachment1PanelControl.Designer.cs">
+      <DependentUpon>ChildOwnedAttachment1PanelControl.cs</DependentUpon>
+    </None>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseChildOwnedDependentEntity1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\ChildOwnedDependentEntity2PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\ParentIndependentEntity1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\ChildOwnedAttachment1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\ChildOwnedDependentEntity1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity2\ChildOwnedRelationshipEntity1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseChildOwnedAttachment1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\ChildOwnedRelationshipEntity1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity2\ParentIndependentEntity2PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity1\ParentIndependentEntity1PanelControl.Designer.cs">
+      <DependentUpon>ParentIndependentEntity1PanelControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\MainForms\EntityMainForm\IndependentEntity1MainForm.cs">
+      <SubType>Form</SubType>
+    </None>
+    <None Include="Custom\Template\MainForms\EntityMainForm\IndependentEntity2MainForm.cs">
+      <SubType>Form</SubType>
+    </None>
+    <Compile Include="Base\MainForms\EntityMainForm\IndependentEntity1MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityMainForm\IndependentEntity2MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityMainForm\BaseIndependentEntity2MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity2\ChildOwnedRelationshipEntity1PanelControl.Designer.cs">
+      <DependentUpon>ChildOwnedRelationshipEntity1PanelControl.cs</DependentUpon>
+    </None>
+    <Compile Include="Base\MainForms\EntityMainForm\BaseIndependentEntity1MainForm.Designer.cs">
+      <DependentUpon>BaseIndependentEntity1MainForm.cs</DependentUpon>
+    </Compile>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity1\ChildOwnedRelationshipEntity1PanelControl.Designer.cs">
+      <DependentUpon>ChildOwnedRelationshipEntity1PanelControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity2\ParentIndependentEntity2PanelControl.Designer.cs">
+      <DependentUpon>ParentIndependentEntity2PanelControl.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\MainForms\EntityMainForm\IndependentEntity2MainForm.Designer.cs">
+      <DependentUpon>IndependentEntity2MainForm.cs</DependentUpon>
+    </None>
+    <Compile Include="Base\MainForms\EntityMainForm\BaseIndependentEntity1MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityMainForm\BaseIndependentEntity2MainForm.Designer.cs">
+      <DependentUpon>BaseIndependentEntity2MainForm.cs</DependentUpon>
+    </Compile>
+    <None Include="Custom\Template\MainForms\EntityMainForm\IndependentEntity1MainForm.Designer.cs">
+      <DependentUpon>IndependentEntity1MainForm.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity2\ChildOwnedRelationshipEntity1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\SearchForms\EntitySearchForm\IndependentEntity1SearchForm.cs">
+      <SubType>Form</SubType>
+    </None>
+    <None Include="Custom\Template\SearchForms\EntitySearchForm\IndependentEntity2SearchForm.cs">
+      <SubType>Form</SubType>
+    </None>
+    <Compile Include="Base\SearchForms\EntitySearchForm\BaseIndependentEntity1SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\SearchForms\EntitySearchForm\BaseIndependentEntity2SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\SearchForms\EntitySearchForm\IndependentEntity2SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="Custom\Template\SearchForms\EntitySearchForm\IndependentEntity1SearchForm.Designer.cs">
+      <DependentUpon>IndependentEntity1SearchForm.cs</DependentUpon>
+    </None>
+    <Compile Include="Base\SearchForms\EntitySearchForm\BaseIndependentEntity2SearchForm.Designer.cs">
+      <DependentUpon>BaseIndependentEntity2SearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\SearchForms\EntitySearchForm\IndependentEntity1SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="Custom\Template\SearchForms\EntitySearchForm\IndependentEntity2SearchForm.Designer.cs">
+      <DependentUpon>IndependentEntity2SearchForm.cs</DependentUpon>
+    </None>
+    <Compile Include="Base\SearchForms\EntitySearchForm\BaseIndependentEntity1SearchForm.Designer.cs">
+      <DependentUpon>BaseIndependentEntity1SearchForm.cs</DependentUpon>
+    </Compile>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity1\ChildOwnedAttachment1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity1\ChildOwnedDependentEntity1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity2\BaseParentIndependentEntity2PanelControl.Designer.cs">
+      <DependentUpon>BaseParentIndependentEntity2PanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity2\BaseChildOwnedRelationshipEntity1PanelControl.Designer.cs">
+      <DependentUpon>BaseChildOwnedRelationshipEntity1PanelControl.cs</DependentUpon>
+    </Compile>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity1\ChildOwnedRelationshipEntity1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity2\ParentIndependentEntity2PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity1\ChildOwnedDependentEntity2PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <None Include="Custom\Template\MainForms\EntityPanelControl\IndependentEntity1\ParentIndependentEntity1PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </None>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseChildOwnedRelationshipEntity1PanelControl.Designer.cs">
+      <DependentUpon>BaseChildOwnedRelationshipEntity1PanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseChildOwnedDependentEntity2PanelControl.Designer.cs">
+      <DependentUpon>BaseChildOwnedDependentEntity2PanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseParentIndependentEntity1PanelControl.Designer.cs">
+      <DependentUpon>BaseParentIndependentEntity1PanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseChildOwnedAttachment1PanelControl.Designer.cs">
+      <DependentUpon>BaseChildOwnedAttachment1PanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseChildOwnedDependentEntity1PanelControl.Designer.cs">
+      <DependentUpon>BaseChildOwnedDependentEntity1PanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Base\MainForms\EntityMainForm\BaseIndependentEntity1MainForm.resx">
+      <DependentUpon>BaseIndependentEntity1MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\MainForms\EntityMainForm\BaseIndependentEntity2MainForm.resx">
+      <DependentUpon>BaseIndependentEntity2MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchForms\EntitySearchForm\BaseIndependentEntity1SearchForm.resx">
+      <DependentUpon>BaseIndependentEntity1SearchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchForms\EntitySearchForm\BaseIndependentEntity2SearchForm.resx">
+      <DependentUpon>BaseIndependentEntity2SearchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseChildOwnedAttachment1PanelControl.resx">
+      <DependentUpon>BaseChildOwnedAttachment1PanelControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseChildOwnedDependentEntity1PanelControl.resx">
+      <DependentUpon>BaseChildOwnedDependentEntity1PanelControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseChildOwnedDependentEntity2PanelControl.resx">
+      <DependentUpon>BaseChildOwnedDependentEntity2PanelControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\MainForms\EntityPanelControl\IndependentEntity2\BaseParentIndependentEntity2PanelControl.resx">
+      <DependentUpon>BaseParentIndependentEntity2PanelControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\MainForms\EntityPanelControl\IndependentEntity2\BaseChildOwnedRelationshipEntity1PanelControl.resx">
+      <DependentUpon>BaseChildOwnedRelationshipEntity1PanelControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseParentIndependentEntity1PanelControl.resx">
+      <DependentUpon>BaseParentIndependentEntity1PanelControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\MainForms\EntityPanelControl\IndependentEntity1\BaseChildOwnedRelationshipEntity1PanelControl.resx">
+      <DependentUpon>BaseChildOwnedRelationshipEntity1PanelControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AppNameBusinessLayer\AppNameBusinessLayer.csproj">
+      <Project>{EE1D688B-A110-4121-A6DC-11189CEDD49B}</Project>
+      <Name>AppNameBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AppNameDataAccessLayer\AppNameDataAccessLayer.csproj">
+      <Project>{B979116E-8E1A-4C2A-A692-E0A0D5570404}</Project>
+      <Name>AppNameDataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SearchControlLibrary\SearchControlLibrary.csproj">
+      <Project>{0B6DAEC1-360F-47B1-BA21-0D192EB2C8E2}</Project>
+      <Name>SearchControlLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinForms\WinForms.csproj">
+      <Project>{50EEDEC1-7FB7-4C72-990B-1EE94A0446AC}</Project>
+      <Name>WinForms</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

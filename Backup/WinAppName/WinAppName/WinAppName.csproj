@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A61FDE96-5CB8-46F2-B912-B0D26EC0EB42}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustName.AppName.WinPL</RootNamespace>
+    <AssemblyName>AppName</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v9.2, Version=9.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\BaseMain.cs">
+    </Compile>
+    <None Include="Custom\Template\MainFormNavigationTreeNodeTag.cs">
+    </None>
+    <Compile Include="Base\BaseMainForm.Designer.cs">
+      <DependentUpon>BaseMainForm.cs</DependentUpon>
+    </Compile>
+    <None Include="Custom\Template\AboutBox Dialog\AboutBoxForm.Designer.cs">
+      <DependentUpon>AboutBoxForm.cs</DependentUpon>
+    </None>
+    <Compile Include="Base\Main.cs">
+    </Compile>
+    <Compile Include="Base\AboutBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\BaseMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\BaseAboutBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\MainFormNavigationTreeNodeTag.cs">
+    </Compile>
+    <Compile Include="Base\BaseMainFormNavigationTreeNodeTag.cs">
+    </Compile>
+    <Compile Include="Base\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="Custom\Template\Main.cs">
+    </None>
+    <None Include="Custom\Template\AppNameUIClassFactory.cs">
+    </None>
+    <Compile Include="Base\BaseAboutBoxForm.Designer.cs">
+      <DependentUpon>BaseAboutBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\BaseAppNameUIClassFactory.cs">
+    </Compile>
+    <None Include="Custom\Template\AboutBox Dialog\AboutBoxForm.cs">
+    </None>
+    <None Include="Custom\Template\App Main Form\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </None>
+    <None Include="Custom\Template\App Main Form\MainForm.cs">
+    </None>
+    <Compile Include="Base\AppNameUIClassFactory.cs">
+    </Compile>
+    <EmbeddedResource Include="Base\BaseAboutBoxForm.resx">
+      <DependentUpon>BaseAboutBoxForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\BaseMainForm.resx">
+      <DependentUpon>BaseMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AppNameBusinessLayer\AppNameBusinessLayer.csproj">
+      <Project>{EE1D688B-A110-4121-A6DC-11189CEDD49B}</Project>
+      <Name>AppNameBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AppNameDataAccessLayer\AppNameDataAccessLayer.csproj">
+      <Project>{B979116E-8E1A-4C2A-A692-E0A0D5570404}</Project>
+      <Name>AppNameDataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FormLibrary\FormLibrary.csproj">
+      <Project>{254773AE-FE37-4429-80BE-4D6A90B9C9DE}</Project>
+      <Name>FormLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SearchControlLibrary\SearchControlLibrary.csproj">
+      <Project>{0B6DAEC1-360F-47B1-BA21-0D192EB2C8E2}</Project>
+      <Name>SearchControlLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinForms\WinForms.csproj">
+      <Project>{50EEDEC1-7FB7-4C72-990B-1EE94A0446AC}</Project>
+      <Name>WinForms</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
